@@ -37,3 +37,19 @@ a = a + b;
 b = a - b; 
 a = a - b; 
 console.log("After swapping: a = " + a + ", b = " + b);
+
+// WAP to find the largest of three numbers
+let numA = 12;
+let numB = 25;
+let numC = 8;
+let largest;
+
+if (numA >= numB && numA >= numC) {
+    largest = numA;
+} else if (numB >= numA && numB >= numC) {
+    largest = numB;
+} else {
+    largest = numC;
+}
+
+console.log("The largest of the three numbers is: " + largest);
